@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architectural Engineer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+
+
+<body>
+
+    <header>
+        <nav id="desktop-nav">
+            <p class="logo">Maxwell Mkhize</p>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#container">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="hold">
+            <nav id="hamburger-nav">
+                <p class="logo">Maxwell Mkhize</p>
+                <div class="hamburger-menu">
+                    <div class="hamburger-icon" onclick="toggleMenu()">
+                        <span></span>                                                                                                                                       
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="menu-links">
+                        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                        <li><a href="#container" onclick="toggleMenu()">Projects</a></li>
+                        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                    </div>
+                </div>
+                </nav>
+
+        </div>
+            
+        
+        
+    </header>
+    <div class="bg_color"></div>
+
+    <aside class="introduction">
+            <img src="./profile.jpg" alt="profile picture" class="profile">
+        
+        
+        <section>
+            <h2>Hi, I'm <strong style="color: brown; font-family: cursive; font-size: larger;">Maxwell Mkhize</strong> </h2>
+            <h2>And I'm an <strong style="color: brown; font-family: cursive; font-size: 400;">architectural engineer</strong> </h2>
+            <p>I specialize in designing innovative and sustainable structures, blending functionality with aesthetic appeal. </p>
+
+            <div class="socials">
+                <a href="https://www.facebook.com"><i class='bx bxl-facebook-square'></i></a>
+                <a href="https://www.instagram.com"><i class='bx bxl-instagram' ></i></a> 
+                <a href="https://www.whatsapp.com"><i class='bx bxl-whatsapp' ></i></a>
+                <a href="https://www.tiktok.com"><i class='bx bxl-tiktok' ></i></a>
+            </div>
+        </section>  
+        
+        
+    </aside>
+        
+    
+    
+    <section id="about">
+        <h2>About Me</h2>
+            <p>I am a dedicated architectural engineer with a passion for integrating innovative design solutions with practical engineering principles.
+             My approach to architectural engineering focuses on creating spaces that are not only visually appealing but also structurally sound, energy-efficient, and sustainable.
+            </p>
+                
+            <p>With experience in a wide range of projects, from retail complexes to luxury residential developments, I bring a deep understanding of how buildings function and how they can be optimized for both form and function. 
+                My expertise spans structural analysis, HVAC design, and sustainable building practices, all of which are essential in today's environmentally conscious construction landscape.
+            </p>
+            
+            <p>I am committed to continuous learning and staying abreast of the latest industry trends and technologies, ensuring that every project I work on benefits from cutting-edge solutions.
+                     Whether it’s designing an open, flexible retail space or crafting a luxurious, energy-efficient condominium, I aim to deliver engineering solutions that enhance the built environment and improve the quality of life for its occupants.
+            </p>
+    </section>
+
+    <main>
+        <h2 id="project-title">Projects</h2>
+    
+        <article id="container">
+        
+            <section class="project one">
+                <img src="./project1.jpg" alt="Retail Spaces drawing" class="image">
+                <h3>Retail Spaces</h3>
+                <p>For this project, I was responsible for the engineering design of a modern retail complex, consisting of multiple stores and a food court. </p>
+            
+            </section>
+    
+            <section class="project two">
+                <img src="./project2.jpg" alt="Luxury Condominiums drawing" class="image">
+                <h3>Luxury Condominiums</h3>
+                <p>In this project, I worked on the engineering aspects of a luxury condominium complex, designed to offer residents both comfort and sophistication. </p>
+                
+            </section>
+    
+            <section class="project three">
+                <img src="./project3.jpg" alt="Industrial Warehouse drawing" class="image">
+                <h3>Industrial Warehouse</h3>
+                <p> Industrial Warehouse In this project, I was responsible for the engineering and structural design of a large-scale industrial warehouse.</p>
+                
+            </section>
+    
+            <section class="project four">
+                <img src="./project4.jpg" alt="Hospital Complex drawing" class="image">
+                <h3>Hospital Complex </h3>
+                <p>For this project, I was responsible for the engineering design of a state-of-the-art hospital complex.</p>
+                
+            </section>
+    
+            <section class="project five">
+                <img src="./project5.jpg" alt="University Campus drawing" class="image">
+                <h3>University Campus Expansion</h3>
+                <p>For this project, I was involved in the engineering design of a university campus expansion, which included academic buildings, student housing, and recreational facilities.</p>
+                
+            </section>
+        </article>
+    
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Structural Analysis</li>
+            <li>HVAC Design</li>
+            <li>Energy Efficiency</li>
+            <li>Construction Management</li>
+            <li>Lighting Design Optimization</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: maxwellmkhize@gmail.com</p>
+        <p>Phone: (071)-555 6666</p>
+    </section>
+    </main>
+    
+
+    <footer>
+        <p>&copy; 2024 Maxwell Mkhize. All rights reserved.</p>
+    </footer>
+
+    <script src="./func.js"></script>
+</body>
+</html>
